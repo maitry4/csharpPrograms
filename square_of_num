@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _404square_of_num
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, sq;
+            Console.WriteLine("Enter a number: ");
+            a = int.Parse(Console.ReadLine());
+            sq = a * a;
+            Console.WriteLine("Square of " + a + " is = " + sq);
+            Console.ReadLine();
+        }
+    }
+}
